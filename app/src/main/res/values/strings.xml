@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+
+    <!--Title Screens-->
+    <string name="home_screen_title">Popular Movies</string>
+    <string name="detail_screen_title">Movie Detail</string>
+
+    <!--Image Content Description-->
+    <string name="movie_image_content_description">Movie image</string>
+    <string name="play_icon_content_description">Play Icon</string>
+
+    <!--Sorting menu options-->
+    <string name="menu_option_most_popular">Most popular</string>
+    <string name="menu_option_top_rated">Top Rated</string>
+    <string name="menu_option_my_favorite">My Favorite</string>
+
+    <!--Network Error-->
+    <string name="network_error">Cannot fetch result at this time. Please try again later.</string>
+
+    <!--Common String-->
+    <string name="movie_release_date_prefix">Released On:</string>
+    <string name="movie_user_rating_prefix">Rating:</string>
+    <string name="movie_details_header">Trailers and Reviews:</string>
+    <string name="favorite_list_empty">Your favorite list is empty</string>
+
+    <!--Progress Indicator String-->
+    <string name="progress_indicator_home_label">Please wait</string>
+    <string name="progress_indicator_home_detail_label">Downloading data</string>
+
+    <!--Toast message for Favorite-->
+    <string name="added_to_favorite">Movie added to your favorite list.</string>
+    <string name="removed_from_favorite">Movie removed from your favorite list.</string>
+</resources>

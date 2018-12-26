@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/movie_reviewer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/movie_review_textview_padding"
+        android:paddingRight="@dimen/movie_review_textview_padding"
+        android:paddingTop="@dimen/movie_review_textview_padding"
+        android:paddingBottom="@dimen/movie_review_textview_padding"
+        android:textColor="@color/viewColor"
+        android:textSize="@dimen/movie_review_screen_text_size"/>
+
+    <TextView
+        android:id="@+id/movie_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/movie_review_textview_padding"
+        android:paddingRight="@dimen/movie_review_textview_padding"
+        android:paddingTop="@dimen/movie_review_textview_padding"
+        android:paddingBottom="@dimen/movie_review_textview_padding"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/movie_review_screen_desc_size"/>
+
+</LinearLayout>
